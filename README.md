@@ -34,6 +34,7 @@ By default, the following key combinations are available:
   * Alt-o: Quick open within project
   * Alt-p: Project selector to file quick open
 
+
     local M = {}
     M.project = require 'project'
 
