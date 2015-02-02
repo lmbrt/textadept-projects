@@ -22,17 +22,6 @@ In the future, I plan to add the following:
 
 I currently use the quickopen tool on projects with over 34,000 files.  It's extremely fast on my machine, but YMMV. I have not tested on any spindle drives, just SSDs.
 
-## Screenshots
-
-Goto Symbol within file
-![Goto Symbol](/../screenshots/gotoSymbol.png?raw=true "Goto Symbol within file")
-
-Quick open file within project
-![Quick Open](/../screenshots/quickOpen.png?raw=true "Quickopen file within project")
-
-Goto Project
-![Goto Project](/../screenshots/gotoProject.png?raw=true "Goto Project")
-
 ## Usage
 
 First step is to clone this repo into your ~/.textadept/modules directory.
@@ -84,3 +73,14 @@ Sample Configuration
             }
         }
     }
+
+## Screenshots
+
+Goto Symbol within file
+![Goto Symbol](/../screenshots/gotoSymbol.png?raw=true "Goto Symbol within file")
+
+Quick open file within project
+![Quick Open](/../screenshots/quickOpen.png?raw=true "Quickopen file within project")
+
+Goto Project
+![Goto Project](/../screenshots/gotoProject.png?raw=true "Goto Project")
