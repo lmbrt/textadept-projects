@@ -26,7 +26,7 @@ I currently use the quickopen tool on projects with over 34,000 files.  It's ext
 
 First step is to clone this repo into your ~/.textadept/modules directory.
 
-Next, add the following configuration to ~/.textadept/init.lua. Adapt to your environment as needed.
+Next, add the below configuration to ~/.textadept/init.lua. Adapt to your environment as needed.
 
 By default, the following key combinations are available:
 
@@ -34,6 +34,7 @@ By default, the following key combinations are available:
   * Alt-o: Quick open within project
   * Alt-p: Project selector to file quick open
 
+Sample Configuration
 
     local M = {}
     M.project = require 'project'
