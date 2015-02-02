@@ -20,11 +20,19 @@ In the future, I plan to add the following:
   * Build commands
   * Automatic linting
 
+I currently use the quickopen tool on projects with over 34,000 files.  It's extremely fast on my machine, but YMMV. I have not tested on any spindle drives, just SSDs.
+
 ## Usage
 
 First step is to clone this repo into your ~/.textadept/modules directory.
 
 Next, add the following configuration to ~/.textadept/init.lua. Adapt to your environment as needed.
+
+By default, the following key combinations are available:
+
+  * Alt-g: Goto symbol within file (based on ctags tagging setup below)
+  * Alt-o: Quick open within project
+  * Alt-p: Project selector to file quick open
 
     local M = {}
     M.project = require 'project'
